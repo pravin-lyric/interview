@@ -7,8 +7,9 @@ export default function Menu({ position, setEditing, setDisplayMenu }) {
 				top,
 				left,
 				border: '2px solid red',
-				padding: '20px',
-				backgroundColor: 'white',
+				padding: '5px',
+				backgroundColor: '#f3f3f3',
+				zIndex: '10',
 			}}
 			onClick={() => {
 				setEditing(true);
